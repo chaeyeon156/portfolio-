@@ -8,7 +8,7 @@
   --display: "Space Grotesk", sans-serif;
   --cursive: "Caveat", cursive;
   --body: "Caveat", cursive;
-  --text-gradient: linear-gradient(110deg, #637d48 4%, #9a6b75 53%, #bd8054 100%);
+  --text-gradient: linear-gradient(110deg, #304258 0%, #4d5b70 58%, #756a55 100%);
 }
 
 * {
@@ -93,8 +93,8 @@ a {
 }
 
 .wordmark span {
-  color: #9a6b75;
-  -webkit-text-fill-color: #9a6b75;
+  color: #756a55;
+  -webkit-text-fill-color: #756a55;
 }
 
 .site-nav {
@@ -213,8 +213,8 @@ p {
 }
 
 .work-heading h2 span {
-  color: #9a6b75;
-  -webkit-text-fill-color: #9a6b75;
+  color: #756a55;
+  -webkit-text-fill-color: #756a55;
 }
 
 .hero-intro {
@@ -755,7 +755,7 @@ p {
 }
 
 .contact-section .eyebrow {
-  background-image: linear-gradient(110deg, #d6eca9, #e5b7ba 57%, #f0c196);
+  background-image: linear-gradient(110deg, #dce4ef, #c9c9c3 57%, #e5d7bd);
 }
 
 .contact-section h2 {
@@ -764,7 +764,7 @@ p {
   font-size: clamp(58px, 7vw, 82px);
   line-height: 0.98;
   color: transparent;
-  background-image: linear-gradient(110deg, #d6eca9, #e5b7ba 57%, #f0c196);
+  background-image: linear-gradient(110deg, #dce4ef, #c9c9c3 57%, #e5d7bd);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -772,7 +772,7 @@ p {
 
 .contact-section h2 span {
   color: transparent;
-  background-image: linear-gradient(110deg, #d6eca9, #e5b7ba 57%, #f0c196);
+  background-image: linear-gradient(110deg, #dce4ef, #c9c9c3 57%, #e5d7bd);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -831,8 +831,8 @@ p {
 }
 
 .footer-heart {
-  color: #d99788;
-  -webkit-text-fill-color: #d99788;
+  color: #b7a982;
+  -webkit-text-fill-color: #b7a982;
 }
 
 .social-links {
