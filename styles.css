@@ -183,7 +183,7 @@ p {
 .hero h1 {
   margin-bottom: 22px;
   font-family: var(--cursive);
-  font-size: clamp(54px, 7vw, 84px);
+  font-size: clamp(62px, 7.8vw, 96px);
   font-weight: 500;
   letter-spacing: -2.5px;
   line-height: 1.08;
@@ -917,8 +917,8 @@ p {
   }
 
   .hero h1 {
-    font-size: clamp(52px, 12vw, 72px);
-    letter-spacing: -2px;
+    font-size: clamp(58px, 13vw, 80px);
+    letter-spacing: -1.8px;
   }
 
   .hero-art {
@@ -999,8 +999,8 @@ p {
   }
 
   .hero h1 {
-    font-size: 44px;
-    letter-spacing: -2px;
+    font-size: 50px;
+    letter-spacing: -1.5px;
   }
 
   .section-heading h2,
