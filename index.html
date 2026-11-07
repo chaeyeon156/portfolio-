@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="개발자에게 한 걸음 더 가까이, 임채연의 디자인과 개발 포트폴리오입니다."
+    />
+    <meta name="theme-color" content="#f7f8f4" />
+    <title>임채연의 포트폴리오 — 개발자에게 한 걸음 더 가까이</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="#home" aria-label="CH.Lim, home">CHL<span>.</span></a>
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-nav"
+        aria-label="Open navigation"
+      >
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a class="nav-contact" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero page-width" id="home" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR SELECT PROJECTS</p>
+          <h1 id="hero-title">Making the digital<br />feel a little more <span>human.</span></h1>
+          <p class="hero-intro">
+            Hey, I’m <strong>CH.Lim</strong> — a designer and developer turning thoughtful ideas
+            into useful, delightful experiences.
+          </p>
+          <a class="button button-dark" href="#work">Explore my work <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="art-orbit orbit-one"></div>
+          <div class="art-orbit orbit-two"></div>
+          <div class="art-sun"></div>
+          <div class="art-card">
+            <span class="art-card-label">GOOD IDEAS<br />GROW HERE</span>
+            <span class="art-card-spark">✳</span>
+          </div>
+          <span class="art-caption">DESIGN WITH INTENTION · 2025</span>
+        </div>
+        <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+      </section>
+
+      <section class="about-section page-width" id="about" aria-labelledby="about-title">
+        <div class="section-heading">
+          <p class="eyebrow">A LITTLE ABOUT ME</p>
+          <h2 id="about-title">Curious by nature.<br />Thoughtful by design.</h2>
+        </div>
+        <div class="about-copy">
+          <p>
+            I partner with people who care about the details. From the first sketch to the final
+            line of code, I bring clarity, craft, and a healthy dose of curiosity to every project.
+          </p>
+          <div class="skill-list" aria-label="Areas of expertise">
+            <span>Product design</span>
+            <span>Frontend development</span>
+            <span>Creative direction</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="work-section" id="work" aria-labelledby="work-title">
+        <div class="page-width">
+          <div class="work-heading">
+            <div>
+              <p class="eyebrow">HOW I CAN HELP</p>
+              <h2 id="work-title">What I do<span>.</span></h2>
+            </div>
+            <p class="work-note">A selection of ideas brought to life<br />with lovely people.</p>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <a class="project-link" href="#contact" aria-label="Discuss a development project">
+                <div class="project-visual develop-visual" aria-hidden="true">
+                  <div class="code-window">
+                    <div class="window-controls"><i></i><i></i><i></i></div>
+                    <span class="code-file">portfolio.js</span>
+                    <div class="code-line"><b>01</b><span><em>const</em> idea = <strong>"hello"</strong>;</span></div>
+                    <div class="code-line"><b>02</b><span><em>function</em> <strong>create</strong>() {</span></div>
+                    <div class="code-line"><b>03</b><span>&nbsp;&nbsp;return <i>something great</i>;</span></div>
+                    <div class="code-line"><b>04</b><span>}</span></div>
+                  </div>
+                </div>
+                <div class="project-info">
+                  <div>
+                    <h3>Develop</h3>
+                    <p>Thoughtful ideas, brought to life in code.</p>
+                  </div>
+                  <span class="project-arrow" aria-hidden="true">↗</span>
+                </div>
+                <div class="project-meta"><span>DESIGN &amp; ENGINEERING</span><span>01</span></div>
+              </a>
+            </article>
+
+            <article class="project-card">
+              <a class="project-link" href="#contact" aria-label="Discuss a creative process project">
+                <div class="project-visual process-visual" aria-hidden="true">
+                  <div class="process-path path-one"></div>
+                  <div class="process-path path-two"></div>
+                  <div class="process-node node-one"><span>01</span></div>
+                  <div class="process-node node-two"><span>02</span></div>
+                  <div class="process-node node-three"><span>03</span></div>
+                  <div class="process-note note-one">DISCOVER</div>
+                  <div class="process-note note-two">MAKE</div>
+                  <div class="process-note note-three">REFINE</div>
+                  <div class="process-spark">✳</div>
+                </div>
+                <div class="project-info">
+                  <div>
+                    <h3>Process</h3>
+                    <p>From first questions to the final details.</p>
+                  </div>
+                  <span class="project-arrow" aria-hidden="true">↗</span>
+                </div>
+                <div class="project-meta"><span>THOUGHTFUL BY DESIGN</span><span>02</span></div>
+              </a>
+            </article>
+
+            <article class="project-card">
+              <a class="project-link" href="#contact" aria-label="Discuss an information design project">
+                <div class="project-visual information-visual" aria-hidden="true">
+                  <div class="info-sheet sheet-back"></div>
+                  <div class="info-sheet sheet-front">
+                    <span class="info-kicker">A FIELD GUIDE</span>
+                    <span class="info-title">Make sense<br />of the details.</span>
+                    <span class="info-rule"></span>
+                    <span class="info-copy">Clear ideas. Useful information.<br />Room to think.</span>
+                    <span class="info-mark">i.</span>
+                  </div>
+                  <span class="info-sun"></span>
+                </div>
+                <div class="project-info">
+                  <div>
+                    <h3>Information</h3>
+                    <p>Complex things, made clear and inviting.</p>
+                  </div>
+                  <span class="project-arrow" aria-hidden="true">↗</span>
+                </div>
+                <div class="project-meta"><span>CLARITY &amp; COMMUNICATION</span><span>03</span></div>
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section page-width" id="contact" aria-labelledby="contact-title">
+        <div class="contact-orb" aria-hidden="true">✳</div>
+        <p class="eyebrow">HAVE A GOOD ONE IN MIND?</p>
+        <h2 id="contact-title">Let’s make it<br /> <span>happen.</span></h2>
+        <p class="contact-copy">Have a project, a question, or just want to say hello? My inbox is open.</p>
+        <a class="button button-light" href="mailto:hello@yourname.dev">
+          hello@yourname.dev <span aria-hidden="true">↗</span>
+        </a>
+        <div class="contact-bottom">
+          <span>BASED ON EARTH · WORKING EVERYWHERE</span>
+          <a href="#home">BACK TO TOP ↑</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer page-width">
+      <span>© <span id="current-year">2025</span> CH.LIM</span>
+      <span>MADE WITH CARE <span class="footer-heart">♥</span></span>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LINKEDIN ↗</a>
+        <a href="https://github.com/" target="_blank" rel="noreferrer">GITHUB ↗</a>
+      </div>
+    </footer>
+  </body>
+</html>
