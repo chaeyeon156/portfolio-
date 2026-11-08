@@ -92,7 +92,13 @@
 
           <div class="project-grid">
             <article class="project-card">
-              <a class="project-link" href="#contact" aria-label="Discuss a development project">
+              <a
+                class="project-link project-open"
+                href="#work"
+                role="button"
+                data-project="develop"
+                aria-label="View Develop project details"
+              >
                 <div class="project-visual develop-visual" aria-hidden="true">
                   <div class="code-window">
                     <div class="window-controls"><i></i><i></i><i></i></div>
@@ -115,7 +121,13 @@
             </article>
 
             <article class="project-card">
-              <a class="project-link" href="#contact" aria-label="Discuss a creative process project">
+              <a
+                class="project-link project-open"
+                href="#work"
+                role="button"
+                data-project="process"
+                aria-label="View Process project details"
+              >
                 <div class="project-visual process-visual" aria-hidden="true">
                   <div class="process-path path-one"></div>
                   <div class="process-path path-two"></div>
@@ -139,7 +151,13 @@
             </article>
 
             <article class="project-card">
-              <a class="project-link" href="#contact" aria-label="Discuss an information design project">
+              <a
+                class="project-link project-open"
+                href="#work"
+                role="button"
+                data-project="information"
+                aria-label="View Information project details"
+              >
                 <div class="project-visual information-visual" aria-hidden="true">
                   <div class="info-sheet sheet-back"></div>
                   <div class="info-sheet sheet-front">
@@ -164,6 +182,36 @@
           </div>
         </div>
       </section>
+
+      <dialog
+        class="project-modal"
+        id="project-modal"
+        aria-modal="true"
+        aria-labelledby="modal-title"
+        aria-describedby="modal-notice"
+      >
+        <div class="modal-content">
+          <button class="modal-close" type="button" aria-label="Close project details">×</button>
+          <p class="eyebrow modal-eyebrow">PROJECT DETAILS</p>
+          <h2 id="modal-title"></h2>
+          <p class="modal-notice" id="modal-notice">아래 내용은 기능 시연을 위한 예시이며, 실제 프로젝트 정보가 아닙니다.</p>
+          <p class="modal-description" id="modal-description"></p>
+          <div class="modal-detail-grid">
+            <section class="modal-detail">
+              <h3>담당 역할</h3>
+              <p id="modal-role"></p>
+            </section>
+            <section class="modal-detail">
+              <h3>사용 기술</h3>
+              <ul id="modal-technologies"></ul>
+            </section>
+            <section class="modal-detail modal-results">
+              <h3>주요 성과</h3>
+              <ul id="modal-results"></ul>
+            </section>
+          </div>
+        </div>
+      </dialog>
 
       <section class="contact-section page-width" id="contact" aria-labelledby="contact-title">
         <div class="contact-orb" aria-hidden="true">✳</div>
